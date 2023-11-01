@@ -7,13 +7,7 @@ public class Phone implements Callable, Informable{
 
     public Phone() {
 
-    }
-
-
-   /* public Phone() {
-        System.out.println("Phone is created");*/
-
-
+     }
 
     public static String getNumber() {
         return number;
@@ -48,10 +42,10 @@ public class Phone implements Callable, Informable{
     }
 
     public void info() {
-        System.out.println("Phone is created");
+
     }
 
-    public void receiveCall() {
+   public void receiveCall() {
 
     }
 }

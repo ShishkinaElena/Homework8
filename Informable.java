@@ -1,7 +1,7 @@
 package Phone;
 
 public interface Informable {
-    default void info(){
-       
+    default void infoD(){
+              System.out.println("Phone is created");
     }
 }

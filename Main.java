@@ -20,21 +20,6 @@ public class Main {
         applePhone.receiveCall();
 
         Informable informable = new Phone();
-        informable.info();
-
-
-
-
-            /*Phone phone = new Phone() {
-            @Override
-            public void receiveCall() {
-
-            }*/
-
-
-
-
+        informable.infoD();
     }
-
-
 }
